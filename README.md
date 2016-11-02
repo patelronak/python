@@ -14,7 +14,7 @@ Returns all the games on the page as array of json with title and metascore.
 Returns specific game on the page as array of json with title and metascore.
 
 First step is to run the server.
-# HTTP API Server
+# API Server
 Run the Server
 ```
 ./server.py
