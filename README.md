@@ -4,10 +4,8 @@ This application will parse the Top Playstation 3 Games (By Metascore) on Metacr
 
 Following endpoints are exposed
 
-Endpoint | Return |
--------------------
-/games | Returns all the games on the page as array of json with title and metascore |
-/games/TITLE_OF_GAME | Returns specific game on the page as array of json with title and metascore |
+/games - Returns all the games on the page as array of json with title and metascore.
+/games/TITLE_OF_GAME - Returns specific game on the page as array of json with title and metascore.
 
 First step is to run the server.
 # HTTP API Server
@@ -18,7 +16,6 @@ Run the Server
 
 
 # Exampe Ouput
-<code>
 [
   {
     "title": "XCOM: Enemy Within",
@@ -29,4 +26,3 @@ Run the Server
     “score”: 88
   }
 ]
-</code>
