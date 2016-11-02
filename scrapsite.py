@@ -5,4 +5,4 @@
 import metacritic
 
 print metacritic.games()
-print metacritic.games('The Awakened Fate: Ultimatum')
+#print metacritic.games('Yakuza 5')
